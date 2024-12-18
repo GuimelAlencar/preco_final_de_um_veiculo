@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "veiculos": [
     {
       "id": 1,
@@ -254,3 +255,54 @@
     }
   ]
 }
+=======
+    "carro": [
+        {
+            "marca": "Marca",
+            "modelo": "Modelo",
+            "ano": "Ano",
+            "consumo": "Consumo",
+            "valor" : 123456
+        },
+        {
+            "marca": "Marca A.2",
+            "modelo": "Modelo A.2",
+            "ano": "Ano A.2",
+            "consumo": "Consumo A.2",
+            "valor" : 123456
+        }
+    ],
+    "motocicleta":[
+        {
+            "marca": "Marca B.1",
+            "modelo": "Modelo B.1",
+            "ano": "Ano B.1",
+            "consumo": "Consumo B.1",
+            "valor" : 123456
+        },
+        {
+            "marca": "Marca B.2",
+            "modelo": "Modelo B.2",
+            "ano": "Ano B.2",
+            "consumo": "Consumo B.2",
+            "valor" : 123456
+        }
+    ],
+    "caminhao":[
+        {
+            "marca": "Marca C.1",
+            "modelo": "Modelo C.1",
+            "ano": "Ano C.1",
+            "consumo": "Consumo C.1",
+            "valor" : 123456
+        },
+        {
+            "marca": "Marca C.2",
+            "modelo": "Modelo C.2",
+            "ano": "Ano C.2",
+            "consumo": "Consumo C.2",
+            "valor" : 123456
+        }
+    ]
+}
+>>>>>>> 8468693e3141d47c4d716d4ef59d5d323ae1ebcd

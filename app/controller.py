@@ -36,11 +36,19 @@ def financiamento(
         taxa_de_juros_ao_ano, 
         numero_de_parcelas,
         tipo_de_parcela="mensal",
+<<<<<<< HEAD
         tipo_de_tabela="PRICE",
         entrada=None, 
     ):
     
     valor_veiculo_financiado = get_valor_veiculo(
+=======
+        tabela="PRICE",
+        entrada=None,
+    ):
+    
+    valor_veiculo_financiado = valor_veiculo(
+>>>>>>> 8468693e3141d47c4d716d4ef59d5d323ae1ebcd
         tipo_veiculo, 
         marca_veiculo, 
         modelo_veiculo, 
@@ -49,16 +57,25 @@ def financiamento(
     )
     
     dados_financiamento = calculo_financiamento(
+<<<<<<< HEAD
         valor_veiculo_financiado, 
         taxa_de_juros_ao_ano, 
         numero_de_parcelas,
         tipo_de_parcela,
         tipo_de_tabela,
+=======
+        valor_veiculo_financiado,
+        taxa_de_juros_ao_ano, 
+        numero_de_parcelas,
+        tipo_de_parcela,
+        parcela, 
+>>>>>>> 8468693e3141d47c4d716d4ef59d5d323ae1ebcd
         entrada,
     )
     
     return dados_financiamento
 
+<<<<<<< HEAD
 veiculos = db["veiculos"]
 
 def get_tipos():
@@ -90,3 +107,7 @@ def get_valor_veiculo(tipo, marca, modelo, ano, consumo):
             veiculo["consumo"] == consumo):
             return veiculo["valor"]
     raise ValueError("Dados inválidos.")
+=======
+
+
+>>>>>>> 8468693e3141d47c4d716d4ef59d5d323ae1ebcd
