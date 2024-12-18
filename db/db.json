@@ -1,0 +1,28 @@
+{
+  "Carros": {
+    "Chevrolet": [
+      {
+        "modelo": "Modelo",
+        "marca": "Marca",
+        "cod_fipe": "Código"
+      },
+      {
+        "modelo": "Modelo",
+        "marca": "Marca",
+        "cod_fipe": "Código"
+      }
+    ],
+    "WolksWagen": [
+      {
+        "modelo": "Modelo",
+        "marca": "Marca",
+        "cod_fipe": "Código"
+      },
+      {
+        "modelo": "Modelo",
+        "marca": "Marca",
+        "cod_fipe": "Código"
+      }
+    ]
+  }
+}
